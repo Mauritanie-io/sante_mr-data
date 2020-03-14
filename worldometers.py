@@ -7,7 +7,7 @@ Created on Sat Mar 14 14:06:15 2020
 """
 
 import csv
-from datetime import date
+from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from os import path, mkdir
@@ -38,9 +38,9 @@ headers = headers[0].find_elements(By.TAG_NAME, head_tag)
 
 rows = table.find_elements(By.TAG_NAME, row_tag) # get all of the rows in the table
 
-today = date.today()
+now = datetime.now()
 
-with open(data_path + '/' + str(today) + '.csv', 'w', newline='') as f:
+with open(data_path + '/' + now.strftime("%d-%m-%Y-%H:%M") + '.csv', 'w', newline='') as f:
     writer = csv.writer(f)
     writer.writerow([header.text.replace('</br>', '') for header in headers])
     for row in rows:
