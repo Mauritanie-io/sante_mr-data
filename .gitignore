@@ -1,2 +1,4 @@
 *.sh
 *.out
+aggregate.py
+data/time*
