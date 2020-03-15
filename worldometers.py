@@ -10,7 +10,6 @@ import requests
 import csv
 from bs4 import BeautifulSoup
 from datetime import datetime
-import pandas as pd
 from os import path, mkdir
 
 data_path = "data"
