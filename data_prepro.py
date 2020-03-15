@@ -9,7 +9,7 @@ Created on Sat Mar 15 14:06:15 2020
 import pandas as pd
 from os import path
 
-FIELDS = {'country': 'Country,Other',
+FIELDS = {'country': 'Country/Region',
     'total_cases': 'TotalCases',
     'total_deaths' : 'TotalDeaths',
     'total_recovered' : 'TotalRecovered'}

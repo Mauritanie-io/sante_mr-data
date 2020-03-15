@@ -1,16 +1,15 @@
 Country/Region,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,ActiveCases,"Serious,Critical",Tot Cases/1M pop
-,,,,,,,,
  China ,"80,849", +25 ," 3,199 ",+10 ,"66,931 "," 10,719 ","3,226 ",56.2
  Italy ,"24,747"," +3,590 "," 1,809 ",+368 ,"2,335 "," 20,603 ","1,672 ",409.3
  Iran ,"13,938"," +1,209 ", 724 ,+113 ,"4,590 "," 8,624 ", ,165.9
  S. Korea ,"8,162", +76 , 75 ,+3 ,834 ," 7,253 ",59 ,159.2
  Spain ,"7,798"," +1,407 ", 292 ,+96 ,517 ," 6,989 ",272 ,166.8
- Germany ,"5,795"," +1,196 ", 11 ,+2 ,46 ," 5,738 ",2 ,69.2
+ Germany ,"5,813"," +1,214 ", 11 ,+2 ,46 ," 5,756 ",2 ,69.4
  France ,"4,499", +30 , 91 , ,12 ," 4,396 ",300 ,68.9
- USA ,"3,313", +370 , 63 ,+6 ,59 ," 3,191 ",10 ,10.0
+ USA ,"3,324", +381 , 63 ,+6 ,59 ," 3,202 ",10 ,10.0
  Switzerland ,"2,217", +842 , 14 ,+1 ,4 ," 2,199 ", ,256.2
- UK ,"1,372", +232 , 35 ,+14 ,18 ," 1,319 ",20 ,20.2
- Norway ,"1,221", +112 , 3 , ,1 ," 1,217 ",27 ,225.2
+ UK ,"1,372", +232 , 35 ,+14 ,20 ," 1,317 ",20 ,20.2
+ Norway ,"1,231", +122 , 3 , ,1 ," 1,227 ",27 ,227.1
  Netherlands ,"1,135", +176 , 20 ,+8 ,2 ," 1,113 ",45 ,66.2
  Sweden ,"1,024", +63 , 3 ,+1 ,1 ," 1,020 ",2 ,101.4
  Belgium ,886, +197 , 4 , ,1 , 881 ,33 ,76.4
@@ -32,12 +31,12 @@ Country/Region,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,ActiveCa
  Israel ,213, +20 , , ,4 , 209 ,2 ,24.6
  Estonia ,171, +56 , , ,1 , 170 , ,128.9
  Iceland ,171, +10 , , , , 171 ,1 ,
+ Ireland ,169, +40 , 2 , ,1 , 166 ,6 ,34.2
  Hong Kong ,149, +7 , 4 , ,81 , 64 ,4 ,19.9
  Philippines ,140, +29 , 11 ,+3 ,2 , 127 ,1 ,1.3
  Romania ,139, +16 , , ,9 , 130 ,1 ,7.2
- Ireland ,129, , 2 , ,1 , 126 ,6 ,26.1
+ Poland ,123, +19 , 3 , ,13 , 107 ,3 ,3.2
  Brazil ,121, , , ,1 , 120 ,2 ,0.6
- Poland ,119, +15 , 3 , ,13 , 103 ,3 ,3.1
  Indonesia ,117, +21 , 5 , ,8 , 104 , ,0.4
  Iraq ,116, +6 , 10 , ,26 , 80 , ,2.9
  Thailand ,114, +32 , 1 , ,35 , 78 ,1 ,1.6
@@ -50,13 +49,13 @@ Country/Region,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,ActiveCa
  UAE ,98, +13 , , ,20 , 78 ,2 ,9.9
  Chile ,75, +14 , , , , 75 , ,3.9
  Russia ,63, +4 , , ,8 , 55 , ,0.4
+ South Africa ,61, +23 , , , , 61 , ,1.0
  Luxembourg ,59, +8 , 1 , , , 58 , ,
  Taiwan ,59, +6 , 1 , ,20 , 38 , ,2.5
  Vietnam ,56, +3 , , ,16 , 40 , ,0.6
  Slovakia ,54, +10 , , , , 54 , ,9.9
  Pakistan ,53, +20 , , ,2 , 51 , ,0.2
  Bulgaria ,51, +10 , 2 , , , 49 , ,7.3
- South Africa ,51, +13 , , , , 51 , ,0.9
  Brunei ,50, +10 , , , , 50 , ,
  Croatia ,49, +10 , , ,2 , 47 , ,11.9
  Algeria ,48, +9 , 4 ,+1 ,10 , 34 , ,1.1
@@ -69,6 +68,7 @@ Country/Region,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,ActiveCa
  Palestine ,38, , , , , 38 , ,7.4
  Colombia ,34, +10 , , , , 34 , ,0.7
  Georgia ,33, +3 , , ,1 , 32 ,1 ,8.3
+ Cyprus ,33, +7 , , , , 33 ,1 ,27.3
  Hungary ,32, +2 , 1 ,+1 ,1 , 30 , ,3.3
  Latvia ,30, +4 , , ,1 , 29 , ,15.9
  Ecuador ,28, , 2 , , , 26 ,1 ,1.6
@@ -76,7 +76,6 @@ Country/Region,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,ActiveCa
  Belarus ,27, , , ,3 , 24 , ,2.9
  Costa Rica ,27, , , , , 27 ,1 ,5.3
  Armenia ,26, +6 , , , , 26 , ,8.8
- Cyprus ,26, , , , , 26 , ,21.5
  Senegal ,24, , , ,2 , 22 , ,1.4
  Bosnia and Herzegovina ,24, +3 , , , , 24 , ,7.3
  Azerbaijan ,23, +4 , 1 , ,6 , 16 , ,2.3
@@ -90,15 +89,15 @@ Country/Region,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,ActiveCa
  Maldives ,13, +3 , , , , 13 , ,
  Cambodia ,12, +5 , , ,1 , 11 , ,0.7
  Lithuania ,12, +3 , , ,1 , 11 , ,4.4
+ Macao ,11, +1 , , ,10 , 1 , ,
  Dominican Republic ,11, , , , , 11 , ,1.0
  Faeroe Islands ,11, +1 , , , , 11 , ,
- Macao ,10, , , ,10 , 0 , ,
+ Jordan ,10, +9 , , ,1 , 9 , ,1.0
  Bolivia ,10, , , , , 10 , ,0.9
  Jamaica ,10, +2 , , ,2 , 8 , ,3.4
  Martinique ,10, , , , , 10 , ,
  Venezuela ,10, +8 , , , , 10 , ,0.4
  Kazakhstan ,9, +3 , , , , 9 , ,0.5
- Jordan ,8, +7 , , ,1 , 7 , ,0.8
  New Zealand ,8, , , , , 8 , ,1.7
  French Guiana ,7, , , , , 7 , ,
  Liechtenstein ,7, +3 , , , , 7 , ,
@@ -122,6 +121,7 @@ Country/Region,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,ActiveCa
  Guam ,3, +3 , , , , 3 , ,
  Honduras ,3, , , , , 3 , ,0.3
  Kenya ,3, +2 , , , , 3 , ,0.1
+ Seychelles ,3, +1 , , , , 3 , ,
  Monaco ,2, , , , , 2 , ,
  Nigeria ,2, , , ,1 , 1 , ,
  Aruba ,2, , , , , 2 , ,
@@ -131,11 +131,11 @@ Country/Region,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,ActiveCa
  Namibia ,2, , , , , 2 , ,0.8
  Saint Lucia ,2, +1 , , , , 2 , ,
  Saint Martin ,2, , , , , 2 , ,
- Seychelles ,2, , , , , 2 , ,
  Trinidad and Tobago ,2, , , , , 2 , ,1.4
  Sudan ,1, , 1 , , , 0 , ,
  Nepal ,1, , , ,1 , 0 , ,
  Antigua and Barbuda ,1, , , , , 1 , ,
+ Bahamas ,1, +1 , , , , 1 , ,
  Bhutan ,1, , , , , 1 , ,
  Cayman Islands ,1, , , , , 1 , ,
  CAR ,1, +1 , , , , 1 , ,0.2
@@ -157,4 +157,4 @@ Country/Region,TotalCases,NewCases,TotalDeaths,NewDeaths,TotalRecovered,ActiveCa
  Togo ,1, , , , , 1 , ,0.1
  U.S. Virgin Islands ,1, , , , , 1 , ,
  Uzbekistan ,1, +1 , , , , 1 , ,
-Total:,"167,571","10,999","6,456",633,"76,596","84,519","5,810",21.5
+Total:,"167,676","11,104","6,456",633,"76,598","84,622","5,811",21.5
