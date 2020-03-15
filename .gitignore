@@ -1,4 +1,4 @@
 *.sh
 *.out
 aggregate.py
-data/time*
+data/initial/*

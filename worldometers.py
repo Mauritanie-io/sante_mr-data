@@ -38,7 +38,7 @@ def parse_table_tocsv(table, csvfile):
     df = pd.DataFrame(data=df_rows, columns = df_headers)
     df.to_csv(csvfile, index=False, header=True)
 
-data_path = path.dirname(path.abspath(__file__)) + "/data"
+data_path = path.join(path.dirname(path.abspath(__file__)), "data/daily")
 
 url = "https://www.worldometers.info/coronavirus/"
 
