@@ -64,7 +64,7 @@ if __name__ == "__main__":
     now = datetime.now()
     
     # name the csvfile using the time now
-    csvfile = data_path + '/' + now.strftime("%d-%m-%Y:%H:%M") + '.csv'
+    csvfile = data_path + '/' + now.strftime("%d-%m-%Y") + '.csv'
     
     # parse the table into a csvfile
     parse_table_tocsv(table, csvfile)
