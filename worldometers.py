@@ -12,7 +12,8 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 from os import path, mkdir
 
-data_path = "data"
+data_path = path.dirname(path.abspath(__file__)) + "/data"
+
 if not path.exists(data_path) or not path.isdir(data_path):
     mkdir(data_path)
 
