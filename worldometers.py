@@ -20,7 +20,7 @@ def get_page(url):
 def get_table(soup, table_id):
     return soup.find(id=table_id)
 
-def parse_table_tocsv(table, csvfile):
+def parse_table_tocsv(table, csvfile, keys = {}):
     # get header of the table
     headers = table.find_all(header_tag)[0]
     headers = headers.find_all(row_tag)[0]
@@ -36,6 +36,7 @@ def parse_table_tocsv(table, csvfile):
         df_rows.append(df_cols)
         
     df = pd.DataFrame(data=df_rows, columns = df_headers)
+    df = df.rename(columns = keys)
     df.to_csv(csvfile, index=False, header=True)
 
 data_path = path.join(path.dirname(path.abspath(__file__)), "data/daily")
@@ -67,4 +68,4 @@ if __name__ == "__main__":
     csvfile = data_path + '/' + now.strftime("%d-%m-%Y") + '.csv'
     
     # parse the table into a csvfile
-    parse_table_tocsv(table, csvfile)
+    parse_table_tocsv(table, csvfile, keys = {"Country,Other" : "Country/Region"})

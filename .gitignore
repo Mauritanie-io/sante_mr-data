@@ -2,3 +2,4 @@
 *.out
 aggregate.py
 data/initial/*
+data/*(copy)*
