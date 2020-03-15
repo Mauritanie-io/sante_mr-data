@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 from os import path, mkdir
 import pandas as pd
+from countries import get_country, country_key
 
 def get_page(url):
     response = requests.get(url)
@@ -37,6 +38,13 @@ def parse_table_tocsv(table, csvfile, keys = {}):
         
     df = pd.DataFrame(data=df_rows, columns = df_headers)
     df = df.rename(columns = keys)
+    
+    for i in df.index:
+        value = df[country_key][i]
+        if value == 'Total:':
+            continue
+        df.at[i, country_key] = get_country(value)
+        
     df.to_csv(csvfile, index=False, header=True)
 
 data_path = path.join(path.dirname(path.abspath(__file__)), "data/daily")
