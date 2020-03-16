@@ -75,9 +75,9 @@ if __name__ == "__main__":
     files = [f for f in listdir(daily_path) if path.isfile(path.join(daily_path, f))]
     files.sort()
     updated_files = [
-        "COVID19_CC_UPDATED (copy).csv",
-        "COVID19_DC_UPDATED (copy).csv",
-        "COVID19_RC_UPDATED (copy).csv"
+        "COVID19_CC_UPDATED.csv",
+        "COVID19_DC_UPDATED.csv",
+        "COVID19_RC_UPDATED.csv"
     ]
     fields = ['TotalCases',
               'TotalDeaths',
