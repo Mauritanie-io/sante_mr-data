@@ -3,3 +3,4 @@
 aggregate.py
 data/initial/*
 data/*(copy)*
+__pycache__
